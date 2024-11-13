@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body onclick="PlayAudio()">
   <h2>Tengo un mensaje para tí</h2>
   <h2>Abre el sobre</h2>
   <div class="letter-image">
@@ -35,7 +35,7 @@
     </div>
     <div class="shadow"></div>
   </div>
-  <audio autoplay>
+  <audio id="musica1" autoplay loop>
     <source src="Music/Epic.mp3" type="audio/mpeg">
     Su navegador no soporta el audio colocado.
   </audio>
